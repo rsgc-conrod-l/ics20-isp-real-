@@ -22,6 +22,7 @@
 		3AFD8C8D1DF8854900CD3366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFD8C901DF8854900CD3366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFD8C921DF8854900CD3366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFD8C981DF887E800CD3366 /* TestingPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestingPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				3AFD8C8D1DF8854900CD3366 /* Assets.xcassets */,
 				3AFD8C8F1DF8854900CD3366 /* LaunchScreen.storyboard */,
 				3AFD8C921DF8854900CD3366 /* Info.plist */,
+				3AFD8C981DF887E800CD3366 /* TestingPlayground.playground */,
 			);
 			path = FactorToStandard;
 			sourceTree = "<group>";
@@ -297,6 +299,7 @@
 				3AFD8C971DF8854900CD3366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
