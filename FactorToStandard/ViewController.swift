@@ -10,16 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //TextBox1
+    @IBOutlet weak var FirstX: UITextField!
+    
+    //textBox2
+    @IBOutlet weak var FirstR: UITextField!
+    
+    //textBox3
+    @IBOutlet weak var SecondX: UITextField!
+    
+    //textBox4
+    @IBOutlet weak var SecondR: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
