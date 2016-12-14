@@ -26,7 +26,7 @@ output.append(String(middleX))
 output.append("x+")
 var finalR = firstR * secondR
 output.append(String(finalR))
-let answer = "\(finalX)x^2 + \(middleX)x + \(finalR)"
+let answer = "\(finalX)x^2"
 
 print(answer)
 

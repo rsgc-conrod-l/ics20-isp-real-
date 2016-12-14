@@ -9,22 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    //TextBox1
+//Mark Properties
     @IBOutlet weak var FirstX: UITextField!
-    
-    //textBox2
+//Mark Properties
     @IBOutlet weak var FirstR: UITextField!
-    
-    //textBox3
+//Mark Properties
     @IBOutlet weak var SecondX: UITextField!
-    
-    //textBox4
+//Mark Properties
     @IBOutlet weak var SecondR: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Handle the text field’s user input through delegate callbacks.
+    
     }
 }
 
