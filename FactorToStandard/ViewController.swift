@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             return
         }
         //Get the firstX as a decimal
-        guard let firstX = Double(firstXAsString) else {
+        guard let firstX = Int(firstXAsString) else {
             return
         }
         // Get the firstR value as a string
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             return
         }
         //Get the firstR as a decimal
-        guard let firstR = Double(firstRAsString) else {
+        guard let firstR = Int(firstRAsString) else {
             return
         }
         //Get the secondX vslaue as a string
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
             return
         }
         //Get the firstX as a decimal
-        guard let secondX = Double(secondXAsString) else {
+        guard let secondX = Int(secondXAsString) else {
             return
         }
         //Get the secondR value as a string
@@ -63,26 +63,20 @@ class ViewController: UIViewController {
             return
         }
         //Get the firstX as a decimal
-        guard let secondR = Double(secondRAsString) else {
+        guard let secondR = Int(secondRAsString) else {
             return
         }
         
-        
-       
-      
+        //Making "finalX" = to firstX * secondX
         let finalX = firstX * secondX
         
-     
-        
+        //Declaring middleX as the equation below
         let middleX = firstX * secondR + secondX * firstR
-      
-       
      
-     
-     
+        //Declaring Final R to firstR * secondR
         let finalR = firstR * secondR
         
-    
+        //The eqaution of how my app will solve the equation
         let answer = "\(finalX)x^2 + \(middleX) + \(finalR)"
 
         solvedAnswer.text = answer
