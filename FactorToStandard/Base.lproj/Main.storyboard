@@ -73,6 +73,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kv-Qo-Pdu">
+                                <rect key="frame" x="92" y="141" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="R#1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9XH-eV-IoZ">
                                 <rect key="frame" x="102" y="138" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -143,13 +150,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kv-Qo-Pdu">
-                                <rect key="frame" x="92" y="141" width="11" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brS-pz-xIz">
+                                <rect key="frame" x="293" y="205" width="166" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Solve"/>
+                                <connections>
+                                    <action selector="findQuadratic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CwS-IL-bO2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -174,15 +182,16 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="FirstR" destination="9XH-eV-IoZ" id="nYT-gc-S4B"/>
-                        <outlet property="FirstX" destination="jan-rr-W9x" id="Pdk-Mc-9JD"/>
-                        <outlet property="SecondR" destination="Fdy-fk-Axd" id="iHU-VX-L5L"/>
-                        <outlet property="SecondX" destination="cQp-U9-sXZ" id="oCU-6L-ZcX"/>
+                        <outlet property="firstR" destination="9XH-eV-IoZ" id="Ov6-vR-gx1"/>
+                        <outlet property="firstX" destination="jan-rr-W9x" id="cF8-NR-TGo"/>
+                        <outlet property="secondR" destination="Fdy-fk-Axd" id="OvS-0M-MdF"/>
+                        <outlet property="secondX" destination="cQp-U9-sXZ" id="bnM-a6-CtF"/>
+                        <outlet property="solvedAnswer" destination="cg2-7f-37Q" id="G0Z-xw-GDu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-200.54347826086959" y="-781.15942028985512"/>
+            <point key="canvasLocation" x="-96" y="-819"/>
         </scene>
     </scenes>
 </document>
