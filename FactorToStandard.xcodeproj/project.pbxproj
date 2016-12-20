@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF55B6C1E097D68004F9199 /* Asset_Tracking_Form.docx in Resources */ = {isa = PBXBuildFile; fileRef = 3AF55B6B1E097D68004F9199 /* Asset_Tracking_Form.docx */; };
 		3AFD8C871DF8854900CD3366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD8C861DF8854900CD3366 /* AppDelegate.swift */; };
 		3AFD8C891DF8854900CD3366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD8C881DF8854900CD3366 /* ViewController.swift */; };
 		3AFD8C8C1DF8854900CD3366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD8C8A1DF8854900CD3366 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF55B6B1E097D68004F9199 /* Asset_Tracking_Form.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asset_Tracking_Form.docx; sourceTree = "<group>"; };
 		3AFD8C831DF8854900CD3366 /* FactorToStandard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactorToStandard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD8C861DF8854900CD3366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFD8C881DF8854900CD3366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 		3AFD8C7A1DF8854900CD3366 = {
 			isa = PBXGroup;
 			children = (
+				3AF55B6B1E097D68004F9199 /* Asset_Tracking_Form.docx */,
 				3AFD8C851DF8854900CD3366 /* FactorToStandard */,
 				3AFD8C841DF8854900CD3366 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFD8C911DF8854900CD3366 /* LaunchScreen.storyboard in Resources */,
+				3AF55B6C1E097D68004F9199 /* Asset_Tracking_Form.docx in Resources */,
 				3AFD8C8E1DF8854900CD3366 /* Assets.xcassets in Resources */,
 				3AFD8C8C1DF8854900CD3366 /* Main.storyboard in Resources */,
 			);
