@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         let finalR = firstR * secondR
         
         //The eqaution of how my app will solve the equation
-        let answer = "\(finalX)x^2 + \(middleX) + \(finalR)"
+        let answer = "\(finalX)x^2 + \(middleX)x + \(finalR)"
 
         solvedAnswer.text = answer
 
